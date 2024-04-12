@@ -7,6 +7,13 @@
 	],
 	"service": "client",
 	"shutdownAction": "stopCompose",
-	"workspaceFolder": "/workspace/"
+	"workspaceFolder": "/workspace/",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Angular.ng-template"
+			]
+		}
+	},
 	// "remoteUser": "node"
 }
