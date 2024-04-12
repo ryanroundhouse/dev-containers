@@ -5,12 +5,16 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev": "nodemon",
+    "start": "node server.js",
+    "docker-build": "docker buildx build -f Dockerfile.dev -t rg/server .",
+    "docker-run": "docker run -it -p 3000:3000 rg/server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
   }
 }
