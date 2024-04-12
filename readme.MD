@@ -22,3 +22,6 @@ To change between dev and prod, change docker-compose for api and client from Do
 
 This was done by following the instructions in this video:
 https://www.youtube.com/watch?v=6Tsi9iL86Cg
+
+Extended with the following devcontainer tutorial:
+https://toptechtips.github.io/2023-05-17-docker-compose-multiple-dev-containers/
