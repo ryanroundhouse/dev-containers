@@ -1,0 +1,7 @@
+FROM node:16-alpine
+ENV NG_CLI_ANALYTICS=ci
+WORKDIR /app
+COPY ./package.json ./
+RUN npm i
+COPY . .
+CMD ["npm", "run", "start"]
