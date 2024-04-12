@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  client:
+    build: ./client/.devcontainer
+    container_name: client-dev-container
+    ports:
+      - "4200:4200"
+    volumes:
+      - ./client:/workspace:cached
